@@ -36,6 +36,8 @@ namespace Expense_Tracker.Controllers
         }
 
         // POST: Transaction/AddOrEdit
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> AddOrEdit([Bind("TransactionId,CategoryId,Amount,Note,Date")] Transaction transaction)
@@ -53,12 +55,15 @@ namespace Expense_Tracker.Controllers
             return View(transaction);
         }
 
-
         // POST: Transaction/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            if (_context.Transactions == null)
+            {
+                return Problem("Entity set 'ApplicationDbContext.Transactions'  is null.");
+            }
             var transaction = await _context.Transactions.FindAsync(id);
             if (transaction != null)
             {

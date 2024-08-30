@@ -1,5 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Expense_Tracker.Models
 {
@@ -37,5 +37,6 @@ namespace Expense_Tracker.Models
                 return ((Category == null || Category.Type == "Expense") ? "- " : "+ ") + Amount.ToString("C0");
             }
         }
+
     }
 }
