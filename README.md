@@ -1,111 +1,112 @@
-## Expense-Tracker-App-in-Asp.Net-Core-MVC
-## https://www.linkedin.com/in/pedrohgarbim/
-### About the project / Sobre o projeto 
-An Expense Tracker App developed in Asp.Net Core MVC using SyncFusion components, with a complete Asp.Net Core application that demonstrates how to build an enterprise application from scratch.
- Implementation of CRUD operations for the Category and Transaction grid, including paging and sorting, dashboard with chart elements, side menu with a dockable sidebar
+# Aplicativo de Rastreamento de Despesas em Asp.Net Core MVC 🧾💰
 
- Aplicativo de rastreamento de despesas desenvolvido em Asp.Net Core MVC utilizando componentes SyncFusion.
-Trata-se de uma aplicação Asp.Net Core completa que demonstra como construir uma aplicação empresarial do zero.
-Pontos discutidos: Implementação de operações CRUD para a grade de Categorias e Transações, incluindo paginação e ordenação, dashboard com elementos de gráfico, menu lateral com barra lateral encaixável, entre outros.
+[LinkedIn - Pedro H. Garbim](https://www.linkedin.com/in/pedrohgarbim/)
 
-## Expense Tracker /  Rastreamento de Despesas
+## Sobre o Projeto / About the Project
+An Expense Tracker App developed in Asp.Net Core MVC using SyncFusion components. This project is a comprehensive Asp.Net Core application that demonstrates how to build an enterprise-level application from scratch. It includes:
 
-### Technologies Used Tecnologias Usadas:
+- 📊 Implementation of CRUD operations for Categories and Transactions.
+- 📋 Grid with paging and sorting.
+- 📈 Dashboard with chart elements.
+- 📁 Side menu with a dockable sidebar for easy navigation.
 
-C#
+Um aplicativo de rastreamento de despesas desenvolvido em Asp.Net Core MVC utilizando componentes SyncFusion. Este projeto é uma aplicação Asp.Net Core completa que demonstra como construir uma aplicação empresarial do zero. Inclui:
 
-SQL Server
+- 📊 Implementação de operações CRUD para Categorias e Transações.
+- 📋 Grade com paginação e ordenação.
+- 📈 Dashboard com elementos gráficos.
+- 📁 Menu lateral com barra lateral encaixável para fácil navegação.
 
-.NET MVC
+An Expense Tracker App developed in Asp.Net Core MVC using SyncFusion components. This project is a comprehensive Asp.Net Core application that demonstrates how to build an enterprise-level application from scratch.
 
-## Projeto / Project  
-Total Income (Renda Total): Mostra a quantidade total de renda registrada.
+## Rastreamento de Despesas / Expense Tracker
 
-Total Expense (Despesa Total): Exibe o total de despesas.
+### Tecnologias Usadas / Technologies Used:
 
-Balance (Saldo): Mostra o saldo disponível, calculado pela diferença entre a renda e as despesas.
+- 💻 C#
+- 🗄️ SQL Server
+- 🌐 .NET MVC
 
-Expense By Category (Despesa por Categoria): Um gráfico de rosca que categoriza as despesas em diferentes áreas, como Educação, Entretenimento, Compras, etc.
+## Visão Geral do Projeto / Project Overview
 
-Income vs Expense (Renda vs Despesa): Um gráfico de linha que compara a renda e as despesas ao longo de diferentes datas.
+- **Renda Total (Total Income):** Mostra a quantidade total de renda registrada.
+- **Despesa Total (Total Expense):** Exibe o total de despesas.
+- **Saldo (Balance):** Mostra o saldo disponível, calculado pela diferença entre a renda e as despesas.
+- **Despesa por Categoria (Expense By Category):** Um gráfico de rosca que categoriza as despesas em diferentes áreas, como Educação, Entretenimento, Compras, etc.
+- **Renda vs Despesa (Income vs Expense):** Um gráfico de linha que compara a renda e as despesas ao longo de diferentes datas.
+- **Transações Recentes (Recent Transactions):** Uma lista detalhada das transações mais recentes, incluindo a categoria, data e valor (positivo para renda, negativo para despesa).
+- **Espaço para Widget:** Um espaço reservado para adicionar futuros widgets ou componentes adicionais.
 
-Recent Transactions (Transações Recentes): Uma lista detalhada das transações mais recentes, incluindo a categoria, data e valor (positivo ou negativo, indicando receita ou despesa).
+![Dashboard](https://github.com/user-attachments/assets/dc24e1af-0f96-47f8-b7f3-054aa1a2c66d)
 
-Widget Placeholder: Um espaço reservado para adicionar futuros widgets ou componentes adicionais.
+## Barra Lateral / Sidebar
 
-![image](https://github.com/user-attachments/assets/4d5227d3-5157-4129-9e34-0d1a2f5b0c9b)
+A barra lateral serve como um menu de navegação no aplicativo Wallet App, permitindo que os usuários acessem diferentes seções:
 
-![image](https://github.com/user-attachments/assets/47f665a2-3d4f-4b91-a1bd-f8638cb3c507)
+- 📊 **Dashboard:** Fornece uma visão geral das finanças, incluindo gráficos e transações recentes.
+- 🗂️ **Categorias:** Gerenciar as categorias de receitas e despesas para uma melhor organização financeira.
+- 💳 **Transações:** Visualizar, adicionar ou editar transações financeiras.
 
-## Dashboard
-![image](https://github.com/user-attachments/assets/dc24e1af-0f96-47f8-b7f3-054aa1a2c66d)
-## Sidebar
-A sidebar apresentada na imagem serve como um menu de navegação no aplicativo Wallet App. Ela permite ao usuário acessar diferentes seções do aplicativo, como:
+A barra lateral pode ser minimizada para ocupar menos espaço na tela, proporcionando mais área para o conteúdo principal do aplicativo.
 
-Dashboard: Onde o usuário pode visualizar um resumo das suas finanças, incluindo gráficos e transações recentes.
+![Barra Lateral](https://github.com/user-attachments/assets/1ef9ad84-f131-4fb5-9176-913eee218051)
 
-Categories: Uma seção para gerenciar as categorias de despesas e receitas, organizando melhor as finanças.
+## Categorias / Categories
 
-Transactions: A área onde o usuário pode visualizar, adicionar ou editar transações financeiras.
+A tela de categorias exibe todas as categorias criadas pelo usuário, mostrando:
 
-Além disso, a sidebar tem uma funcionalidade que permite ser minimizada, reduzindo seu tamanho para ocupar menos espaço na tela, o que é útil para proporcionar mais área visual para o conteúdo principal do aplicativo.
+- 📝 **Nome:** O nome da categoria.
+- 📊 **Tipo:** Indica se é "Receita" ou "Despesa".
+- ✏️ **Editar:** Modificar a categoria.
+- 🗑️ **Apagar:** Remover a categoria.
 
-![image](https://github.com/user-attachments/assets/1ef9ad84-f131-4fb5-9176-913eee218051)
-![image](https://github.com/user-attachments/assets/e5c91970-484a-4509-b066-6334e3fa2cac)
+As categorias são paginadas, com até 10 exibidas por página, simplificando a navegação e organização.
 
+![Categorias](https://github.com/user-attachments/assets/5818516b-e508-4a2f-9f6b-cbdc7bde745d)
 
-## Categories 
-A tela de categorias do aplicativo exibe todas as categorias que foram criadas pelo usuário. Cada categoria é listada com o seu nome, o tipo (se é uma "Income" - Receita ou "Expense" - Despesa), e há opções para editar ou apagar a categoria.
+### Criar uma Nova Categoria / Create a New Category
 
-Nesta tela, as categorias são paginadas, com até 10 categorias sendo exibidas por página. Isso facilita a navegação e a organização das categorias, permitindo ao usuário gerenciar melhor suas finanças. Ao lado de cada categoria, ícones de edição (lápis) e exclusão (lixeira) estão disponíveis, permitindo modificações rápidas.
+Permite aos usuários adicionar ou editar categorias, especificando:
 
-![image](https://github.com/user-attachments/assets/5818516b-e508-4a2f-9f6b-cbdc7bde745d)
+- 🛠️ **Tipo:** Escolher se a categoria é "Despesa" ou "Receita".
+- 📝 **Título:** Inserir o nome da categoria.
+- 🖼️ **Ícone:** Selecionar um ícone para identificação visual.
+- 💾 **Enviar:** Salvar a nova categoria.
 
-## Categories - Create a new category / Add or Edit
-A tela Create a New Category serve para Criar e editar as categorias, permite ao usuário adicionar uma nova categoria ao sistema. Nesta interface, o usuário pode:
+![Criar Categoria](https://github.com/user-attachments/assets/34e7632e-804d-4ea4-9a02-83055c2ca5d9)
 
-Selecionar o Tipo de Categoria: O usuário pode escolher se a nova categoria será uma "Expense" (Despesa) ou "Income" (Receita) usando os botões de seleção no topo do formulário.
-Título: O usuário deve inserir o nome da categoria no campo "Title".
-Ícone: O usuário pode especificar um ícone para a categoria no campo "Icon". Este ícone ajuda a identificar visualmente a categoria.
-Botão Submit: Após preencher as informações, o usuário pode clicar no botão "Submit" para salvar a nova categoria.
-Essa tela simplifica o processo de criar e personalizar categorias, garantindo que o usuário possa organizar suas finanças de acordo com suas necessidades específicas.
+## Transações / Transactions
 
-![image](https://github.com/user-attachments/assets/34e7632e-804d-4ea4-9a02-83055c2ca5d9)
+A tela "Transações" lista todas as transações registradas, incluindo:
 
-## Transactions 
- A tela de "Transactions" exibe todas as transações registradas no aplicativo. Cada transação é listada com os seguintes detalhes:
+- 🗂️ **Categoria:** A qual categoria a transação pertence.
+- 📅 **Data:** Quando a transação ocorreu.
+- 💵 **Quantia:** O valor da transação (positivo para receita, negativo para despesa).
+- ✏️ **Editar / 🗑️ Apagar:** Modificar ou remover transações.
 
-Category (Categoria): Mostra a categoria à qual a transação pertence, como Salário, Entretenimento, Compras, etc.
+Inclui um botão "+ Nova Transação" para adicionar novas entradas. As transações são paginadas, com até 10 por página.
 
-Date (Data): Exibe a data em que a transação foi realizada.
+![Transações](https://github.com/user-attachments/assets/43df6510-175f-48d9-b42a-03cd5b136970)
 
-Amount (Quantia): Mostra o valor da transação, com um sinal positivo para receitas e negativo para despesas.
+### Criar uma Nova Transação / Create a New Transaction
 
-Actions (Ações): Disponibiliza ícones de edição (lápis) e exclusão (lixeira) ao lado de cada transação, permitindo que o usuário altere ou remova transações conforme necessário.
+Os usuários podem adicionar uma nova transação preenchendo:
 
-Além disso, a interface oferece um botão "+ New Transaction" para adicionar novas transações ao sistema. Assim como na tela de categorias, as transações são paginadas, permitindo uma visualização organizada e facilitando a navegação entre elas. Nesta página, são exibidos até 10 itens por página, facilitando o controle das finanças.
+- 📅 **Data:** Quando a transação ocorreu.
+- 🗂️ **Categoria:** Selecionar a partir de categorias previamente definidas.
+- 💵 **Quantia:** Inserir o valor (positivo para receita, negativo para despesa).
+- 📝 **Nota:** Adicionar quaisquer detalhes adicionais.
 
-![image](https://github.com/user-attachments/assets/43df6510-175f-48d9-b42a-03cd5b136970)
+Clique em "Enviar" para salvar a transação.
 
-## Create a new Transaction 
-A tela "Create a New Transaction" permite ao usuário adicionar uma nova transação ao sistema. Nesta interface, o usuário deve preencher os seguintes campos:
+![Criar Transação](https://github.com/user-attachments/assets/9d08aa4c-7c6b-4a68-b1c4-45d93fdb0fd1)
 
-Date (Data): O usuário seleciona a data em que a transação ocorreu.
+## SQL Server - Tabelas de Categorias e Transações
 
-Category (Categoria): O usuário escolhe a categoria à qual a transação pertence, a partir de uma lista de categorias previamente definidas.
+### Categorias
 
-Amount (Quantia): O usuário insere o valor da transação. O valor pode ser positivo (indicando receita) ou negativo (indicando despesa).
+![Tabela de Categorias](https://github.com/user-attachments/assets/5511f748-253c-47f6-ba44-4210ec773357)
 
-Note (Nota): O usuário pode adicionar uma nota ou descrição adicional para a transação.
+### Transações
 
-Após preencher os campos, o usuário clica no botão "Submit" para salvar a transação. Esta tela simplifica o processo de adicionar transações, garantindo que todas as informações essenciais sejam capturadas de forma eficiente.
-
-![image](https://github.com/user-attachments/assets/9d08aa4c-7c6b-4a68-b1c4-45d93fdb0fd1)
-
-## Sql Server - Tabelas de Category e Transaction 
-### Categories
-![image](https://github.com/user-attachments/assets/5511f748-253c-47f6-ba44-4210ec773357)
-
-### Transaction 
-![image](https://github.com/user-attachments/assets/0693bf51-b255-4b7f-a396-dff8b2b8a556)
-
+![Tabela de Transações](https://github.com/user-attachments/assets/0693bf51-b255-4b7f-a396-dff8b2b8a556)
