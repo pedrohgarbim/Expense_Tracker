@@ -2,7 +2,7 @@
 
 [LinkedIn - Pedro H. Garbim](https://www.linkedin.com/in/pedrohgarbim/)
 
-## Sobre o Projeto / About the Project
+## Sobre o Projeto / About the Project 
 An Expense Tracker App developed in Asp.Net Core MVC using SyncFusion components. This project is a comprehensive Asp.Net Core application that demonstrates how to build an enterprise-level application from scratch. It includes:
 
 - 📊 Implementation of CRUD operations for Categories and Transactions.
