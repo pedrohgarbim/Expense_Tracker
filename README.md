@@ -10,7 +10,7 @@ An Expense Tracker App developed in Asp.Net Core MVC using SyncFusion components
 - 📈 Dashboard with chart elements.
 - 📁 Side menu with a dockable sidebar for easy navigation.
 
-Um aplicativo de rastreamento de despesas desenvolvido em Asp.Net Core MVC utilizando componentes SyncFusion. Este projeto é uma aplicação Asp.Net Core completa que demonstra como construir uma aplicação empresarial do zero. Inclui:
+Um aplicativo de rastreamento de despesas desenvolvido em Asp.Net Core MVC utilizando componentes SyncFusion. Este projeto é uma aplicação Asp.Net Core completa que demonstra como construir uma aplicação feita do zero que ira rastrear todos as despesas. Inclui:
 
 - 📊 Implementação de operações CRUD para Categorias e Transações.
 - 📋 Grade com paginação e ordenação.
